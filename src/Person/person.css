@@ -1,14 +1,9 @@
 .person-container {
+  margin-top: 2rem;
   display: flex;
   align-items: center;
-  width: 30rem;
-  margin-top: 2rem;
-  padding: 0.5rem 2rem;
-  background-color: #c9e4c5;
-  border-radius: 0.3rem;
-  justify-content: space-between;
+  padding: 0.5rem 0rem;
   box-sizing: border-box;
-  box-shadow: #b5cda3 0px 3px 3px 0px;
 }
 .person-content {
   display: flex;
@@ -21,10 +16,28 @@
   box-sizing: border-box;
   box-shadow: #b5cda3 0px 3px 3px 0px;
 }
-
-/* .person-container {
-  margin-top: 2rem;
+.getname-container {
   display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
   align-items: center;
-  padding: 0.5rem 0rem;
-} */
+  box-sizing: border-box;
+  padding:1rem 0 0 0 ;
+}
+.getname-container input {
+  outline: none;
+  border: none;
+  height: 1.2rem;
+}
+.getname-container button {
+  margin-bottom: 1rem;
+  outline: none;
+  border: none;
+  height: 1.5rem;
+  width: 10rem;
+  margin-top: 0.5rem;
+  background-color: #dcf1d8;
+}
+.getname-container button:hover {
+  background-color: #c9e4c5;
+}
