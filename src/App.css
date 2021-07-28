@@ -1,0 +1,24 @@
+
+.App {
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#54614a;
+  background-color: #FAEBE0;
+}
+.header-container {
+  width: 100%;
+  display: block;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+
+}
